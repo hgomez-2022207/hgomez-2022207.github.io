@@ -116,6 +116,29 @@ nav a:hover {
     align-items: center;
     justify-content: center;
     overflow: hidden;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+    text-align: center;
+}
+
+.content img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.content p {
+    font-size: 12px;
+    margin-bottom: 20px;
+    padding: 0 10px;
 }
 
 .info-container {
@@ -150,6 +173,11 @@ nav a:hover {
     padding: 10px;
     border-radius: 5px;
     justify-content: left;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.dates h1{
+    font-size: 16px;
 }
 
 .dates ul {
@@ -160,6 +188,7 @@ nav a:hover {
 }
 
 .dates ul li {
+    font-size: 12px;
     margin-bottom: 1px;
     word-wrap: break-word;
 }
@@ -193,8 +222,18 @@ nav a:hover {
     margin: 1vh;
     padding: 1vh;
     border-radius: 3vh;
+    text-align: center;
     border: 1px solid #368749;
 }
+
+.bf a {
+    color: inherit;
+    text-decoration: none;
+    font-weight: normal;
+    color: #4936f4;
+}
+
+
 
 .content {
     position: relative;
@@ -281,10 +320,76 @@ nav a:hover {
     100% { margin-left: -300%; }
 }
 
+@media (max-width: 1000px) {
+    .infografia {
+        max-width: 80%;
+    }
+
+    .section h2 {
+        font-size: 20px;
+    }
+
+    .section p {
+        font-size: 16px;
+    }
+
+    .tecnology img {
+        max-width: 100px;
+        border-radius: 6px;
+    }
+
+    .image-container img {
+        max-width: 60px;
+        border-radius: 4px;
+    }
+
+    nav {
+        height: auto;
+        padding: 0.5vh 1vh;
+        flex-direction: column;
+    }
+
+    nav a {
+        font-size: 1.4vh;
+        margin: 5px 0;
+    }
+
+    .dates ul {
+    }
+
+    .dates ul li {
+        font-size: 14px;
+    }
+
+    .progress {
+        height: 15px;
+    }
+
+    .progress-bar {
+        height: 15px;
+        font-size: 12px;
+    }
+    .fondo-img {
+        padding: 10px;
+    }
+
+    .content img {
+        max-width: 50%;
+        height: auto;
+        border-radius: 50%;
+        margin-bottom: 10px;
+    }
+
+    .content p {
+        font-size: 12px;
+        margin-bottom: 10px;
+        padding: 0 5px;
+    }
+}
 
 @media (max-width: 768px) {
     .infografia {
-        max-width: 100%;
+        max-width: 70%;
     }
 
     .section h2 {
@@ -308,10 +413,12 @@ nav a:hover {
     nav {
         height: auto;
         padding: 0.5vh 1vh;
+        flex-direction: column;
     }
 
     nav a {
         font-size: 1.4vh;
+        margin: 5px 0;
     }
 
     .dates ul {
@@ -319,13 +426,61 @@ nav a:hover {
     }
 
     .dates ul li {
-        font-size: 5px;
+        font-size: 12px;
+    }
+
+    .progress {
+        height: 15px;
+    }
+
+    .progress-bar {
+        height: 15px;
+        font-size: 12px;
+    }
+    .fondo-img {
+        padding: 10px;
+    }
+
+    .content img {
+        max-width: 80%;
+        height: auto;
+        border-radius: 50%;
+        margin-bottom: 10px;
+    }
+
+    .content p {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 500px) {
+    .habilidad-item {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .habilidad-item img {
+        max-width: 80%;
+        height: auto;
+        margin-bottom: 10px;
+    }
+
+    .progress-bar {
+        width: 100%;
+    }
+
+    .progress-text {
+        font-size: 12px;
+    }
+
+    .habilidad-item p {
+        font-size: 14px;
     }
 }
 
 @media (max-width: 480px) {
     .infografia {
-        max-width: 95%;
+        max-width: 70%;
     }
 
     .section h2 {
@@ -344,5 +499,87 @@ nav a:hover {
     .image-container img {
         max-width: 50px;
         border-radius: 3px;
+    }
+
+    nav {
+        height: auto;
+        padding: 0.5vh 1vh;
+        flex-direction: column;
+    }
+
+    nav a {
+        font-size: 1.2vh;
+        margin: 5px 0;
+    }
+
+    .dates ul li {
+        font-size: 8px;
+    }
+
+    .progress {
+        height: 10px;
+    }
+
+    .progress-bar {
+        height: 10px;
+        font-size: 10px;
+    }
+
+    .change-container{
+        padding: 0px;
+    }
+}
+
+@media (max-width: 450px) {
+    .fondo-img {
+        padding: 10px;
+    }
+
+    .info-container {
+        text-align: center;
+        padding: 0;
+    }
+
+    .content{
+        padding: 0;
+    }
+
+    .content img {
+        max-width: 80%;
+        height: auto;
+        border-radius: 50%;
+        margin-bottom: 10px;
+    }
+
+    .content p {
+        font-size: 14px;
+        padding: 0 5px;
+    }
+
+    .dates ul {
+        padding: 0;
+        list-style: none;
+    }
+
+    .dates ul li {
+        font-size: 10px;
+    }
+
+    .change-container ul {
+        padding: 0;
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .change-container ul li {
+        flex: 1 1 35%;
+    }
+
+    .change-container ul li img {
+        width: 100%;
+        height: auto;
+        border-radius: 5px;
     }
 }
