@@ -22,23 +22,24 @@ nav {
     max-width: 98%;
     height: 5vh;
     background-color: #4936f4;
-    padding: 1vh;
     margin-bottom: 1vh;
     border-radius: 3vh;
     display: flex;
-    justify-content: center;
     align-items: center;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    justify-content: space-around;
+    padding: 1vh;
 }
 
 
 nav a {
-    color: #fff; 
+    color: #fff;
     text-decoration: none;
-    margin: 0 10px; 
-    font-weight: bold; 
+    margin: 0 10px;
+    font-weight: bold;
     transition: color 0.3s ease;
     font-size: 1.6vh;
+    padding: 0.5vh 1vh;
 }
 
 nav a:hover {
@@ -320,6 +321,14 @@ nav a:hover {
     100% { margin-left: -300%; }
 }
 
+@media (max-width: 1240px) {
+    nav a {
+        font-size: 10px;
+        justify-content: center;
+        margin: 0;
+    }
+}
+
 @media (max-width: 1000px) {
     .infografia {
         max-width: 80%;
@@ -346,7 +355,7 @@ nav a:hover {
     nav {
         height: auto;
         padding: 0.5vh 1vh;
-        flex-direction: column;
+        flex-direction: row;
     }
 
     nav a {
@@ -411,14 +420,13 @@ nav a:hover {
     }
 
     nav {
-        height: auto;
-        padding: 0.5vh 1vh;
         flex-direction: column;
+        padding: 1vh;
     }
 
     nav a {
+        margin: 0.5vh 0;
         font-size: 1.4vh;
-        margin: 5px 0;
     }
 
     .dates ul {
@@ -502,14 +510,11 @@ nav a:hover {
     }
 
     nav {
-        height: auto;
-        padding: 0.5vh 1vh;
-        flex-direction: column;
+        padding: 0.5vh;
     }
 
     nav a {
         font-size: 1.2vh;
-        margin: 5px 0;
     }
 
     .dates ul li {
