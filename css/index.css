@@ -322,6 +322,15 @@ nav a:hover {
 }
 
 @media (max-width: 1240px) {
+    .content img {
+        max-width: 50%;
+        height: auto;
+        border-radius: 50%;
+        margin-bottom: 10px;
+    }
+    .dates ul li {
+        font-size: 10px;
+    }
     nav a {
         font-size: 10px;
         justify-content: center;
@@ -361,9 +370,6 @@ nav a:hover {
     nav a {
         font-size: 1.4vh;
         margin: 5px 0;
-    }
-
-    .dates ul {
     }
 
     .dates ul li {
@@ -461,7 +467,7 @@ nav a:hover {
     }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
     .habilidad-item {
         text-align: center;
         margin-bottom: 20px;
@@ -483,6 +489,9 @@ nav a:hover {
 
     .habilidad-item p {
         font-size: 14px;
+    }
+    .dates ul li {
+        font-size: 10px;
     }
 }
 
@@ -586,5 +595,21 @@ nav a:hover {
         width: 100%;
         height: auto;
         border-radius: 5px;
+    }
+}
+
+@media (max-width: 360px) {
+
+    .fondo-img{
+        padding: 0;
+    }
+    .info-container {
+        margin: 0;
+    }
+    .content p {
+        font-size: 10px;
+    }
+    .dates ul li {
+        font-size: 8px;
     }
 }
