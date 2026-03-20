@@ -7,187 +7,239 @@
     <link rel="stylesheet" href="./css/index.css">
 </head>
 <body>
-    <div class="infografia">
-        <nav>
-            <a href="#datos-generales">Datos Generales</a>
-            <a href="#quien-soy">¿Quién soy?</a>
-            <a href="#tecnologias">¿Qué tecnologías manejo?</a>
-            <a href="#trabajos">Algunos de mis trabajos</a>
-            <a href="#vistas">Vistas</a>
-            <a href="https://www.linkedin.com/in/herlin-fernando-gomez-escobar-ab4084319/">LinkedIn</a>
-            <a href="https://cetkinal-my.sharepoint.com/:b:/g/personal/hgomez-2022207_kinal_edu_gt/EVeUtGTVgpJNjVGmkqbz-gwBm9Sc83fXiMDAwzC3Ie_QaQ?e=CVTb6b">Computrabajo</a>
-        </nav>
-        <div class="fondo-img">
-            <div class="info-container" id="datos-generales">
-                <div class="content">
-                    <img src="./img/hgomez.jpg" alt="" class="">
-                    <p>Explora mi mundo digital, donde la creatividad encuentra su código</p>
-                </div>
-                <div class="dates">
-                    <h1>Datos Generales</h1>
-                    <ul>
-                        <li><strong>Nombre:</strong> Herlin Fernando Gomez Escobar</li>
-                        <li><strong>Edad:</strong> 19 años</li>
-                        <li><strong>Correo personal:</strong> herlingomezescobar@email.com</li>
-                        <li><strong>Correo LinkedIn y Computrabajo:</strong> hgomez-2022207@kinal.edu.gt</li>
-                        <li><strong>Experiencia:</strong> Recién graduado de Kinal</li>
-                        <li><strong>Formación:</strong> Actualmente aprendiendo sobre las tecnologías de React y NodeJs</li>
-                    </ul>
-                </div>
+<header class="hero">
+    <nav class="navbar">
+        <a href="#inicio">Inicio</a>
+        <a href="#datos-generales">Datos Generales</a>
+        <a href="#quien-soy">¿Quién soy?</a>
+        <a href="#tecnologias">Tecnologías</a>
+        <a href="#trabajos">Proyectos</a>
+        <!--<a href="#vistas">Vistas</a>-->
+        <a href="https://www.linkedin.com/in/herlin-fernando-gomez-escobar-ab4084319/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a href="https://cetkinal-my.sharepoint.com/:b:/g/personal/hgomez-2022207_kinal_edu_gt/EVeUtGTVgpJNjVGmkqbz-gwBm9Sc83fXiMDAwzC3Ie_QaQ?e=CVTb6b" target="_blank" rel="noopener noreferrer">Computrabajo</a>
+    </nav>
+
+    <section class="hero-content" id="inicio">
+        <div class="hero-text">
+            <span class="eyebrow">Portafolio Personal</span>
+            <h1>Herlin Fernando Gomez Escobar</h1>
+            <p>
+                Desarrollador web recién graduado, enfocado en crear soluciones funcionales,
+                visuales y cada vez más profesionales.
+            </p>
+            <div class="hero-buttons">
+                <a class="btn primary" href="#trabajos">Ver proyectos</a>
+                <!--<a class="btn secondary" href="#vistas">Ver imágenes</a>-->
             </div>
-            <div class="change-container">
-                <ul>
-                    <li>
-                        <img src="./img/sitio1.jpg" alt="" />
-                    </li>
-                    <li>
-                        <img src="img/sitio2.jpg" alt="" />
-                    </li>
-                    <li>
-                        <img src="img/sitio3.jpg" alt="" />
-                    </li>
-                    <li>
-                        <img src="img/tikal.jpg" alt="" />
-                    </li>
-                </ul>
-            </div>
-        </div>        
-        <div class="section" id="quien-soy">
+        </div>
+
+        <div class="hero-card">
+            <img src="./img/hgomez.jpg" alt="Herlin Fernando Gomez Escobar">
+            <p>Explora mi mundo digital, donde la creatividad encuentra su código.</p>
+        </div>
+    </section>
+</header>
+
+<main class="page">
+    <section class="section info-grid" id="datos-generales">
+        <div class="section-title">
+            <span>01</span>
+            <h2>Datos Generales</h2>
+        </div>
+
+        <div class="info-card">
+            <ul class="data-list">
+                <li><strong>Nombre:</strong> Herlin Fernando Gomez Escobar</li>
+                <li><strong>Edad:</strong> 19 años</li>
+                <li><strong>Correo personal:</strong> herlingomezescobar@email.com</li>
+                <li><strong>Correo LinkedIn y Computrabajo:</strong> hgomez-2022207@kinal.edu.gt</li>
+                <li><strong>Experiencia:</strong> Recién graduado de Kinal</li>
+                <li><strong>Formación:</strong> Actualmente aprendiendo React y Node.js</li>
+            </ul>
+        </div>
+
+        <div class="gallery-strip">
+            <img src="./img/sitio1.jpg" alt="Imagen decorativa 1">
+            <img src="./img/sitio2.jpg" alt="Imagen decorativa 2">
+            <img src="./img/sitio3.jpg" alt="Imagen decorativa 3">
+            <img src="./img/tikal.jpg" alt="Imagen decorativa 4">
+        </div>
+    </section>
+
+    <section class="section about-section" id="quien-soy">
+        <div class="section-title">
+            <span>02</span>
             <h2>¿Quién soy?</h2>
-            <p>¡Hola! Soy un desarrollador web recién graduado en programación de Kinal y este es mi portafolio.
-                Aquí encontrarás información sobre mí y detalles importantes que estoy dispuesto a compartir, en las cuales utilice algunos
-                conocimientos de diseñador gráfico que aunque actualmente no sea la gran cosa, al seguir en mi etapa de aprendizaje pienso seguir mejorando.
-                Bienvenido/a a explorar y espero que disfrutes de mi trabajo.</p>
         </div>
-        <div class="section" id="tecnologias">
+
+        <div class="about-card">
+            <p>
+                ¡Hola! Soy un desarrollador web recién graduado en programación de Kinal y este es mi portafolio.
+                Aquí encontrarás información sobre mí y algunos de los trabajos que he realizado mientras sigo
+                mejorando mis habilidades en desarrollo y diseño.
+            </p>
+            <p>
+                Me gusta crear interfaces limpias, funcionales y visualmente atractivas. También estoy reforzando
+                mis conocimientos en frontend, backend y nuevas tecnologías para seguir creciendo como profesional.
+            </p>
+        </div>
+    </section>
+
+    <section class="section" id="tecnologias">
+        <div class="section-title">
+            <span>03</span>
             <h2>¿Qué tecnologías manejo?</h2>
-            
-            <div class="habilidad">
-                <div class="habilidad-item">
-                    <img src="./img/java.png" alt="">
-                    <div class="progress">
-                        <div class="progress-bar" style="width: 40%;">
-                            <span class="progress-text">40%</span>
-                        </div>
-                    </div>
-                    <p>Java</p>
-                </div>
-                <div class="habilidad-item">
-                    <img src="./img/html.png" alt="">
-                    <div class="progress">
-                        <div class="progress-bar" style="width: 60%;">
-                            <span class="progress-text">60%</span>
-                        </div>
-                    </div>
-                    <p>HTML</p>
-                </div>
-                <div class="habilidad-item">
-                    <img src="./img/css.png" alt="">
-                    <div class="progress">
-                        <div class="progress-bar" style="width: 60%;">
-                            <span class="progress-text">60%</span>
-                        </div>
-                    </div>
-                    <p>CSS</p>
-                </div>
-                <div class="habilidad-item">
-                    <img src="./img/Js.png" alt="">
-                    <div class="progress">
-                        <div class="progress-bar" style="width: 40%;">
-                            <span class="progress-text">40%</span>
-                        </div>
-                    </div>
-                    <p>JavaScript</p>
-                </div>
-                <div class="habilidad-item">
-                    <img src="./img/nodeJs.png" alt="">
-                    <div class="progress">
-                        <div class="progress-bar" style="width: 60%;">
-                            <span class="progress-text">60%</span>
-                        </div>
-                    </div>
-                    <p>Node.js</p>
-                </div>
-                <div class="habilidad-item">
-                    <img src="./img/mongo.png" alt="">
-                    <div class="progress">
-                        <div class="progress-bar" style="width: 70%;">
-                            <span class="progress-text">70%</span>
-                        </div>
-                    </div>
-                    <p>MongoDB</p>
-                </div>
-                <div class="habilidad-item">
-                    <img src="./img/react.png" alt="">
-                    <div class="progress">
-                        <div class="progress-bar" style="width: 60%;">
-                            <span class="progress-text">60%</span>
-                        </div>
-                    </div>
-                    <p>React</p>
-                </div>
-                <div class="habilidad-item">
-                    <img src="https://angular.io/assets/images/logos/angular/angular.svg" alt="Angular Logo" style="width: 60%;"/>
-                    <div class="progress">
-                        <div class="progress-bar" style="width: 60%;">
-                            <span class="progress-text">60%</span>
-                        </div>
-                    </div>
-                    <p>Angular</p>
-                </div>
-            </div>
         </div>
-        
-        <div class="section-links" id="trabajos">
+
+        <div class="skills-grid">
+            <article class="skill-card">
+                <img src="./img/java.png" alt="Java">
+                <h3>Java</h3>
+                <div class="progress"><div class="progress-bar" style="width: 40%"><span>40%</span></div></div>
+            </article>
+
+            <article class="skill-card">
+                <img src="./img/html.png" alt="HTML">
+                <h3>HTML</h3>
+                <div class="progress"><div class="progress-bar" style="width: 60%"><span>60%</span></div></div>
+            </article>
+
+            <article class="skill-card">
+                <img src="./img/css.png" alt="CSS">
+                <h3>CSS</h3>
+                <div class="progress"><div class="progress-bar" style="width: 60%"><span>60%</span></div></div>
+            </article>
+
+            <article class="skill-card">
+                <img src="./img/Js.png" alt="JavaScript">
+                <h3>JavaScript</h3>
+                <div class="progress"><div class="progress-bar" style="width: 40%"><span>40%</span></div></div>
+            </article>
+
+            <article class="skill-card">
+                <img src="./img/nodeJs.png" alt="Node.js">
+                <h3>Node.js</h3>
+                <div class="progress"><div class="progress-bar" style="width: 60%"><span>60%</span></div></div>
+            </article>
+
+            <article class="skill-card">
+                <img src="./img/mongo.png" alt="MongoDB">
+                <h3>MongoDB</h3>
+                <div class="progress"><div class="progress-bar" style="width: 70%"><span>70%</span></div></div>
+            </article>
+
+            <article class="skill-card">
+                <img src="./img/react.png" alt="React">
+                <h3>React</h3>
+                <div class="progress"><div class="progress-bar" style="width: 60%"><span>60%</span></div></div>
+            </article>
+
+            <article class="skill-card">
+                <img src="https://angular.io/assets/images/logos/angular/angular.svg" alt="Angular">
+                <h3>Angular</h3>
+                <div class="progress"><div class="progress-bar" style="width: 60%"><span>60%</span></div></div>
+            </article>
+        </div>
+    </section>
+
+    <section class="section" id="trabajos">
+        <div class="section-title">
+            <span>04</span>
             <h2>Algunos de mis trabajos</h2>
-            <div class="bf">
-                <a rel="stylesheet" href="https://github.com/lreyes2021490/KinalSounds.git">Kinal Sounds</a>
-            </div>
-            <div class="bf">
-                <a href="https://github.com/agonzalez2022198/KinePolis.git">KinePolis</a>
-            </div>
-            <div class="bf">
-                <a href="https://github.com/osanchez2019490/AhorcadoGrupo.git">Ahorcado</a>
-            </div>
-            <div class="bf">
-                <a href="https://github.com/hgomez-2022207/PS_Control_Academico.git">Control Academico</a>
-            </div>
-            <div class="bf">
-                <a href="https://github.com/hgomez-2022207/Business_Manager_2022207.git">Gestor de Empresas</a>
-            </div>
-            <div class="bf">
-                <a href="https://github.com/hgomez-2022207/Git_101.git">Contactos</a>
-            </div>
-            <div class="bf">
-                <a href="https://github.com/hgomez-2022207/Blog_Backend.git">Blog Backend</a>
-                <a href="https://github.com/hgomez-2022207/Blog_De_Actividades.git">Blog Frontend</a>
-            </div>
-            <div class="bf">
-                <a href="https://github.com/jjimenez2022152/Backend_Almacenadora.git">Almacén Backend</a>
-                <a href="https://github.com/ggalindo2022147/frontend-alm.git">Almacén Frontend</a>
-            </div>
-            <div class="bf">
-                <a href="https://github.com/ygarcia2022194/Gestor_HotelesBackend.git">Hoteles Backend</a>
-                <a href="https://github.com/arodriguez2019473/FronEnd_Gestion_Hotelera_2024.git">Hoteles Frontend</a>
-            </div>
-            <div class="bf">
-                <a href="https://github.com/bgomez-2022208/angular_Parking_Manager.git">Parqueo</a>
-            </div>
         </div>
-        <div class="section" id="vistas">
-            <h2>Vistas</h2>
-            <p>Algunas imagenes sobre los proyectos realizados</p>
-            <div class="tecnology">
-                <img href="./img/turismo.png" alt=""></img>
-                <img src="./img/kinalS.png" alt="">
-                <img src="./img/hoteles.jpg" alt="">
-                <img src="./img/login.png" alt="">
-                <img src="./img/login2.png" alt="">
-                <img src="./img/contactos.png" alt="">
-                <img src="./img/contacto.png" alt="">
-                <img src="./img/inicio.jpg" alt="">
-            </div>
+
+        <div class="projects-grid">
+            <article class="project-card featured">
+                <h3>Proyecto destacado</h3>
+                <p>Una selección de proyectos que muestran mi progreso en frontend, backend y trabajo en equipo.</p>
+                <div class="project-links">
+                    <a href="https://github.com/hgomez-2022207/PS_Control_Academico.git" target="_blank" rel="noopener noreferrer">Control Académico</a>
+                    <a href="https://github.com/hgomez-2022207/Business_Manager_2022207.git" target="_blank" rel="noopener noreferrer">Gestor de Empresas</a>
+                </div>
+            </article>
+
+            <article class="project-card">
+                <h3>Kinal Sounds</h3>
+                <div class="project-links">
+                    <a href="https://github.com/lreyes2021490/KinalSounds.git" target="_blank" rel="noopener noreferrer">Ver repositorio</a>
+                </div>
+            </article>
+
+            <article class="project-card">
+                <h3>KinePolis</h3>
+                <div class="project-links">
+                    <a href="https://github.com/agonzalez2022198/KinePolis.git" target="_blank" rel="noopener noreferrer">Ver repositorio</a>
+                </div>
+            </article>
+
+            <article class="project-card">
+                <h3>Ahorcado</h3>
+                <div class="project-links">
+                    <a href="https://github.com/osanchez2019490/AhorcadoGrupo.git" target="_blank" rel="noopener noreferrer">Ver repositorio</a>
+                </div>
+            </article>
+
+            <article class="project-card">
+                <h3>Contactos</h3>
+                <div class="project-links">
+                    <a href="https://github.com/hgomez-2022207/Git_101.git" target="_blank" rel="noopener noreferrer">Ver repositorio</a>
+                </div>
+            </article>
+
+            <article class="project-card">
+                <h3>Blog Backend</h3>
+                <div class="project-links">
+                    <a href="https://github.com/hgomez-2022207/Blog_Backend.git" target="_blank" rel="noopener noreferrer">Backend</a>
+                    <a href="https://github.com/hgomez-2022207/Blog_De_Actividades.git" target="_blank" rel="noopener noreferrer">Frontend</a>
+                </div>
+            </article>
+
+            <article class="project-card">
+                <h3>Almacén</h3>
+                <div class="project-links">
+                    <a href="https://github.com/jjimenez2022152/Backend_Almacenadora.git" target="_blank" rel="noopener noreferrer">Backend</a>
+                    <a href="https://github.com/ggalindo2022147/frontend-alm.git" target="_blank" rel="noopener noreferrer">Frontend</a>
+                </div>
+            </article>
+
+            <article class="project-card">
+                <h3>Hoteles</h3>
+                <div class="project-links">
+                    <a href="https://github.com/ygarcia2022194/Gestor_HotelesBackend.git" target="_blank" rel="noopener noreferrer">Backend</a>
+                    <a href="https://github.com/arodriguez2019473/FronEnd_Gestion_Hotelera_2024.git" target="_blank" rel="noopener noreferrer">Frontend</a>
+                </div>
+            </article>
+
+            <article class="project-card">
+                <h3>Parqueo</h3>
+                <div class="project-links">
+                    <a href="https://github.com/bgomez-2022208/angular_Parking_Manager.git" target="_blank" rel="noopener noreferrer">Ver repositorio</a>
+                </div>
+            </article>
         </div>
-    </div>
+    </section>
+
+    <!--    <section class="section" id="vistas">
+            <div class="section-title">
+                <span>05</span>
+                <h2>Últimas vistas</h2>
+            </div>
+
+            <p class="section-description">
+                Algunas imágenes de los proyectos realizados para mostrar parte de mi trabajo visual y técnico.
+            </p>
+
+            <div class="views-grid">
+                <figure class="view-card"><img src="./img/turismo.png" alt="Proyecto turismo"></figure>
+                <figure class="view-card"><img src="./img/kinalS.png" alt="Proyecto Kinal Sounds"></figure>
+                <figure class="view-card"><img src="./img/hoteles.jpg" alt="Proyecto hoteles"></figure>
+                <figure class="view-card"><img src="./img/login.png" alt="Pantalla de login 1"></figure>
+                <figure class="view-card"><img src="./img/login2.png" alt="Pantalla de login 2"></figure>
+                <figure class="view-card"><img src="./img/contactos.png" alt="Proyecto contactos"></figure>
+                <figure class="view-card"><img src="./img/contacto.png" alt="Pantalla contacto"></figure>
+                <figure class="view-card"><img src="./img/inicio.jpg" alt="Pantalla inicio"></figure>
+            </div>
+        </section>-->
+</main>
 </body>
 </html>
